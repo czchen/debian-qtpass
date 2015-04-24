@@ -1,0 +1,5 @@
+qtpass (0~20150424-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Fri, 24 Apr 2015 19:29:40 +0800

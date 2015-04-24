@@ -1,0 +1,8 @@
+/*.debhelper
+/*.log
+/*.substvars
+/files
+
+/qtpass/
+/qtpass-dbg/
+/tmp

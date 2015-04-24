@@ -1,0 +1,51 @@
+Source: qtpass
+Section: utils
+Priority: optional
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Homepage: https://github.com/IJHack/qtpass
+Vcs-Git: git://anonscm.debian.org/collab-maint/qtpass.git
+Vcs-Browser: http://anonscm.debian.org/cgit/collab-maint/qtpass.git
+
+Package: qtpass
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: GUI for password manager pass
+ qtpass is a GUI password manager based on pass with the following
+ features:
+ .
+  * Reading pass password stores
+  * Decrypting and displaying the password info
+  * Updating from the git repository
+  * Editing and adding of passwords
+  * Adding and removing people from gpg-id per folder
+  * Read operations also supported without pass (using gpg and git)
+  * Configuration options for backends and executable/folder locations
+  * Copying password to clipboard
+  * Hiding of password against shouldersurfing
+  * Experimental WebDAV support
+
+Package: qtpass-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends},
+         qtpass (= ${binary:Version}),
+Description: Debug symbols for qtpass
+ qtpass is a GUI password manager based on pass with the following
+ features:
+ .
+  * Reading pass password stores
+  * Decrypting and displaying the password info
+  * Updating from the git repository
+  * Editing and adding of passwords
+  * Adding and removing people from gpg-id per folder
+  * Read operations also supported without pass (using gpg and git)
+  * Configuration options for backends and executable/folder locations
+  * Copying password to clipboard
+  * Hiding of password against shouldersurfing
+  * Experimental WebDAV support
+ .
+ This package contains debug symbols for qtpass.
